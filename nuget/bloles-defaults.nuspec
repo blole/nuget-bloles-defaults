@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>bloles-defaults</id>
+        <version>1.0.0</version>
+        <authors>blole</authors>
+        <owners>blole</owners>
+        <description>blole's default c++ project settings</description>
+        <projectUrl>https://github.com/blole/nuget-bloles-defaults</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>native C++</tags>
+    </metadata>
+    <files>
+        <file src="dummy.hpp" target="lib\native" />
+        <file src="*.ps1" target="tools" />
+        <file src="..\*.props" target="tools" />
+    </files>
+</package>
